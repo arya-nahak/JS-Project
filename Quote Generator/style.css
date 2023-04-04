@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color:teal;
+}
+
+.container {
+    font-family: 'Source Serif Pro', serif;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #17c6c6, #bce5e6);
+    box-shadow:  20px 20px 60px #b2d8d9,
+                 -20px -20px 60px #f0ffff;
+    margin-top: 10rem;
+    padding: 2rem 2rem 0 2rem;
+    max-height: 100vh;
+}
+
+#g_btn {
+    margin: 2rem 0 2rem 0;
+    top: 20rem;
+}
+.a_author {
+    text-align: end;
+    margin: 1rem 5rem 0 0;
+}
+
+@media only screen and (max-width: 600px){
+:root {
+    margin-top: -2.5rem;
+    padding: 0 1.5rem 0 1.5rem;
+    }
+    #g_btn {
+        width: 10rem;
+    }
+}
