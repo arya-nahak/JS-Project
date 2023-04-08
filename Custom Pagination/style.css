@@ -1,0 +1,21 @@
+#page_navigation {
+  clear: both;
+  margin: 20px 0;
+}
+
+.page_link {
+  padding: 6px 12px !important;
+}
+
+#page_navigation a {
+  padding: 3px 6px;
+  border: 1px solid #2e6da4;
+  margin: 2px;
+  color: black;
+  text-decoration: none;
+}
+
+.active_page {
+  background: #009ef7;
+  color: white !important;
+}
