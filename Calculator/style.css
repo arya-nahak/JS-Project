@@ -16,7 +16,7 @@ body {
   background: -webkit-linear-gradient(to right, #e1f5c4, cadetblue);
   background: linear-gradient(to right, #e1f5c4, cadetblue);
   color: navy;
-  text-align: start;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -26,15 +26,20 @@ body {
   border-radius: 50px;
   padding: 2rem 2rem 2rem 2rem;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  width: auto;
-}
-input {
-  font-family: "Poppins", sans-serif;
-  border: 0;
-  border-radius: 10px;
-  padding-left: 20px;
+  width: 400px;
+  height: 465px;
 }
 
-input::placeholder {
-  margin-left: 10px !important;
+.buttons {
+  flex-wrap: wrap;
+}
+
+.btn{
+    font-size:18px;
+    font-weight: 600;
+}
+
+.btn:hover{
+    border: 1px solid white;
+    color: white;
 }
